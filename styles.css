@@ -1,0 +1,31 @@
+img {
+  width: 600px; /* Set your desired width */
+  height: 360px; /* Set your desired height */
+  object-fit: cover; /* This will ensure the images are scaled properly */
+}
+
+a {
+  text-decoration: none; /* Remove the default underline */
+  color: inherit; /* Inherit the color from the parent element */
+}
+
+a:hover {
+  text-decoration: underline; /* Add the underline on hover */
+  text-decoration-color: black; /* Set the underline color to black */
+}
+
+#dog-name-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+}
+
+section {
+    padding: 20px;
+}
